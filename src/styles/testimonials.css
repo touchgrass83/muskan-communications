@@ -1,0 +1,35 @@
+.testimonials {
+  padding: 100px 20px;
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+
+.testimonials h2 {
+  font-size: 36px;
+  font-weight: 900;
+  margin-bottom: 40px;
+}
+
+.testimonial-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.testimonial {
+  background: #eef2f1;
+  padding: 30px;
+  border-radius: 18px;
+  text-align: left;
+}
+
+.testimonial.highlight {
+  background: var(--primary);
+  color: #001a12;
+}
+
+.testimonial strong {
+  display: block;
+  margin-top: 15px;
+}

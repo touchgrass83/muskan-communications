@@ -1,0 +1,58 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  background: white;
+  border-bottom: 1px solid #e5e5e5;
+  z-index: 100;
+}
+
+.nav-container {
+  max-width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 20px;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: 900;
+
+  width: 32%;
+
+  display: flex;
+  align-items: center;
+}
+
+.bolt-icon {
+  background-color: #36e2a9;
+  padding: 8px 6px;
+  border-radius: 2px;
+  margin-right: 10px;
+}
+
+nav a {
+  margin: 0 16px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #333;
+  transition: 0.2s;
+}
+
+nav a:hover {
+  color: #36e2a9;
+}
+
+.nav-icons {
+  font-size: 20px;
+  display: flex;
+  gap: 15px;
+  justify-content: right;
+
+  width: 32%;
+}
+
+.search-icon {
+  margin-right: 10px;
+}
